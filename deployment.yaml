@@ -10,7 +10,7 @@ spec:
   template:
     metadata:
       labels:
-        app: reddit-clone-app
+        app: reddit-clone-pipeline
     spec:
       containers:
         - name: reddit-clone-pipeline
