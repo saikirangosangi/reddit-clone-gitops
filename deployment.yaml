@@ -6,11 +6,11 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: reddit-clone-pipeline
+      app: reddit-clone-app
   template:
     metadata:
       labels:
-        app: reddit-clone-pipeline
+        app: reddit-clone-app
     spec:
       containers:
         - name: reddit-clone-pipeline
